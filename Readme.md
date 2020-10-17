@@ -1,7 +1,7 @@
 #Demo project to show how Intellij Idea fails to use editorconfig
 
-This project is created to demonstrate, to demonstrate, that
-Intellij Idea does not use preferences provided in .editorconfig
+This project is created to demonstrate, that Intellij Idea 
+does not use preferences provided in .editorconfig
 and uses internal preferences instead.
 
 There are 3 properties in .editorconfig file
@@ -22,9 +22,9 @@ So auto formatted shouldn't do anything to a code like that
 ``` java
     public static void main(String[] args) {
         String properlyIndentedString = "properly indented string";
-        //@formatter=off
+        //@formatter:off
             String badlyIndentedString = "badly indented string";
-        //@formatter=on
+        //@formatter:on
     }
 ```
 
