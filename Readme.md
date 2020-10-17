@@ -28,7 +28,9 @@ So auto formatted shouldn't do anything to a code like that
     }
 ```
 
-But auto formatter always changes the indentation of badly indented string
+But auto formatter always changes the indentation of badly indented string.
+It works as expected if __Enable formatter markers in comments__ feature
+is enabled through the user interface.
 
 To be more formal
 
